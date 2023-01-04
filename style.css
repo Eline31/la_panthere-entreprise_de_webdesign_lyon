@@ -708,14 +708,14 @@ p {
     font-size: 22px;
     line-height: 1.2em;
     font-weight: 600;
-    color: #6C6C6C;
+    color: #6C6C6C!important;
 }
 
 .comment {
     font-family: "FontAwesome";
     font-style: italic;
-    font-size: 20px;
-    color: #6C6C6C;
+    font-size: 18px;
+    color: #6C6C6C!important;
     line-height:1em;
     font-weight: 600;
     margin-bottom: 0px;
@@ -723,8 +723,9 @@ p {
 
 .comment__author {
     font-family: "FontAwesome";
-    font-size: 20px;
-    color: #6C6C6C;
+    font-size: 18px;
+    color: #6C6C6C!important;
+    font-weight: 400px;
 }
 
 h3 {
