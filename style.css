@@ -676,7 +676,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -703,28 +703,25 @@ p {
     margin: auto auto auto auto;
 }
 
-#bloc-2-services > h2 {
-    font-size: 20px!important;
+h2 {
+    font-size: 22px!important;
     line-height: 1em;
-    font-weight: 600;
+    font-weight: 500;
     color: #6C6C6C!important;
 }
 
 .comment {
-    font-family: "FontAwesome";
     font-style: italic;
     font-size: 18px;
     color: #6C6C6C!important;
     line-height:1em;
-    font-weight: 600;
     margin-bottom: 0px;
 }
 
 .comment__author {
-    font-family: "FontAwesome";
     font-size: 18px;
-    color: #6C6C6C!important;
-    font-weight: 400px;
+    color: #909090!important;
+    font-weight: 300;
 }
 
 h3 {
