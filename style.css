@@ -703,10 +703,9 @@ p {
     margin: auto auto auto auto;
 }
 
-#bloc-2-services h2 {
-    font-family: "et-line";
-    font-size: 22px;
-    line-height: 1.2em;
+#bloc-2-services > h2 {
+    font-size: 20px!important;
+    line-height: 1em;
     font-weight: 600;
     color: #6C6C6C!important;
 }
