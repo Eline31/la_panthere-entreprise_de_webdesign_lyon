@@ -769,10 +769,6 @@ i {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
-
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
@@ -821,11 +817,11 @@ i {
 }
 
 .bg-banniere {
-    background-image: url("../img/agence-la-panthere.jpg");
+    background-image: url("../img/agence-la-panthere-bisbis.jpg");
 }
 
 .bg-presentation {
-    background-image: url("../img/image-de-presentation.bmp");
+    background-image: url("../img/image-de-presentationbis.jpg");
 }
 
 .adresse {
