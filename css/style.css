@@ -129,9 +129,6 @@ a:hover {
 .d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
 .d-bloc p a {
     color: rgb(255, 255, 255);
 }
@@ -146,9 +143,6 @@ a:hover {
 .d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
 .d-bloc p a:hover, i:hover {
     color: rgba(255, 255, 255, .6);
 }
@@ -227,9 +221,6 @@ a:hover {
 .l-bloc h1 a,
 .l-bloc h2 a,
 .l-bloc h3 a,
-.l-bloc h4 a,
-.l-bloc h5 a,
-.l-bloc h6 a,
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
 }
@@ -245,9 +236,6 @@ a:hover {
 .l-bloc h1 a:hover,
 .l-bloc h2 a:hover,
 .l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
-.l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
 }
@@ -641,16 +629,13 @@ a[data-lightbox]:hover img {
 
 h1,
 h3,
-h4,
-h5,
-h6,
 p,
 label,
 .btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -843,6 +828,22 @@ i {
     background-image: url("../img/image-de-presentation.bmp");
 }
 
+.adresse {
+    border:1px solid #787878;
+    box-shadow: 0.5px 0.5px 0.5px #484848;
+    margin: 20px;
+    padding: 10px;
+    background:#364577;
+    text-align: center;
+}
+
+.adresse p {
+    font-size: 1.2em;
+    color: white;
+    font-weight: 500;
+    line-height: 2em;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -915,9 +916,6 @@ i {
     h1,
     h2,
     h3,
-    h4,
-    h5,
-    h6,
     p,
     #disqus_thread {
         padding-left: 10px!important;
