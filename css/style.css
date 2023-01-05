@@ -49,7 +49,7 @@ a:hover {
 }
 
 .bloc-md {
-    padding: 50px;
+    padding: 30px;
 }
 
 .bloc-sm {
@@ -681,6 +681,9 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .bloc3 {
@@ -735,7 +738,8 @@ h4 {
 
 i {
     font-size:2em;
-    color: #FFFFFF
+    color: #FFFFFF;
+    padding: 10px;
 }
 
 .white {
@@ -831,10 +835,12 @@ i {
 .adresse {
     border:1px solid #787878;
     box-shadow: 0.5px 0.5px 0.5px #484848;
-    margin: 20px;
     padding: 10px;
     background:#364577;
     text-align: center;
+    height:125px;
+    border-radius: 15px;
+    max-width: 415px;
 }
 
 .adresse p {
