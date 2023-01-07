@@ -306,6 +306,11 @@ a:hover {
     z-index: 1;
 }
 
+.navbar-1 ul {
+    display:flex;
+    gap: 20px;
+}
+
 .nav > li {
     float: left;
     margin-top: 4px;
@@ -927,6 +932,7 @@ i {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
+        display: block;
     }
     .navbar.row {
         margin-left: 0;
