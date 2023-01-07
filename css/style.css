@@ -306,10 +306,10 @@ a:hover {
     z-index: 1;
 }
 
-.navbar-1 ul {
+/*.navbar-1 ul {
     display:flex;
     gap: 20px;
-}
+}*/
 
 .nav > li {
     float: left;
