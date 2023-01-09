@@ -763,6 +763,9 @@ i {
     height:125px;
     border-radius: 15px;
     max-width: 415px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .adresse p {
