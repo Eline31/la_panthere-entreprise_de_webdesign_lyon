@@ -251,7 +251,6 @@ a, button {
 }
 
 .navbar-brand {
-    height: auto;
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
@@ -267,6 +266,7 @@ a, button {
 
 .navbar-brand img[src$=svg] {
     min-width: 100px;
+    height: 40px;
 }
 
 .nav-center .navbar-brand img {
@@ -624,7 +624,7 @@ p {
     color:#F3976C!important;
 }
 
-quote {
+.quote {
     font-style: italic;
     font-size: 18px;
     line-height:1em;
@@ -633,7 +633,7 @@ quote {
     display: block;
 }
 
-quote > span {
+.quote > span {
     font-size: 18px;
     font-weight: 300;
     line-height: 2em;
