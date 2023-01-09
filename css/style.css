@@ -762,6 +762,12 @@ i {
     background-image: url("../img/image-de-presentation.jpg");
 }
 
+.img-responsive {
+    margin: auto;
+    height: 320px;
+    width: 320px;
+}
+
 .adresse {
     border:1px solid #787878;
     box-shadow: 0.5px 0.5px 0.5px #484848;
@@ -774,6 +780,7 @@ i {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto;
 }
 
 .adresse p {
