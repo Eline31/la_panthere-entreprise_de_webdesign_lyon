@@ -88,15 +88,6 @@ a:hover {
     cursor: pointer;
 }
 
-/*#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("../img/pageload-spinner.gif") no-repeat center center;
-}*/
-
 .bloc {
     width: 100%;
     clear: both;
@@ -124,6 +115,12 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
+}
+
+.row_contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bg-center,
@@ -314,11 +311,6 @@ a, button {
     float: right;
     z-index: 1;
 }
-
-/*.navbar-1 ul {
-    display:flex;
-    gap: 20px;
-}*/
 
 .nav > li {
     float: left;
@@ -631,6 +623,11 @@ a {
 
 p {
     font-size: 14px;
+}
+
+footer p {
+    font-size: 16px;
+    color: #364577;
 }
 
 .tight-width-whitespace {
