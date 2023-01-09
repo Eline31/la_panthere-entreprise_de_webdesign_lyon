@@ -197,7 +197,7 @@ a:hover {
 .d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
-.d-bloc p a:hover, i:hover {
+.d-bloc p a:hover {
     color: rgba(255, 255, 255, .6);
 }
 
@@ -708,8 +708,12 @@ h4 {
 
 i {
     font-size:2em;
-    color: #FFFFFF;
+    color: #364577;
     padding: 10px;
+}
+
+i:hover {
+    color:#F3976C;
 }
 
 .white {
@@ -744,7 +748,8 @@ i {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    border-top: 10px solid #F3976C;
+    border-bottom: 10px solid #F3976C
 }
 
 .bgc-dark-slate-blue {
@@ -756,12 +761,14 @@ i {
 }
 
 .btn-atomic-tangerine {
-    background: #364577;
-    color: #FFFFFF!important;
+    border: 5px solid #F3976C!important;
+    background: #FFFFFF;
+    color: #364577!important;
+    box-sizing: border-box;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #F3976C!important;
+    background: #364577;
     color: #FFFFFF!important;
 }
 
