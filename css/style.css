@@ -1,9 +1,44 @@
+/*Intégration des icônes réseaux sociaux*/
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 'FontAwesome';
+    font-size: 2.3em!important;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+.fa-dribbble:before {
+    content: "\f17d";
+}
+
+.fa-facebook-f:before {
+    content: "\f09a";
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+}
+
+/*Intégration des icônes de la partie présentation de la homepage*/
 @font-face {
     font-family: et-line;
     src: url(../fonts/et-line.eot);
     src: url(../fonts/et-line.eot?#iefix) format('embedded-opentype'), url(../fonts/et-line.woff) format('woff'), url(../fonts/et-line.ttf) format('truetype'), url(../fonts/et-line.svg#et-line) format('svg');
     font-weight: 400;
-    font-style: normal
+    font-style: normal;
 }
 
 .et-icon-edit,
@@ -31,6 +66,7 @@
 .et-icon-edit:before {
     content: "\e01c";
 }
+
 
 body {
     margin: 0;
