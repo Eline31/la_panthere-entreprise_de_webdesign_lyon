@@ -315,7 +315,7 @@ a, button {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -697,6 +697,8 @@ h3 {
 
 h4 {
     color: #333333!important;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .med-width-whitespace {
@@ -840,6 +842,10 @@ i:hover {
     justify-content: center;
 }
 
+header {
+    border-bottom: 10px solid #F3976C;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -980,6 +986,7 @@ i:hover {
         float: left;
         margin-left: 10px;
     }
+
     .bloc {
         padding-left: 0;
         padding-right: 0;
