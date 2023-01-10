@@ -322,7 +322,7 @@ a, button {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -812,6 +812,7 @@ i:hover {
 
 .bg-banniere {
     background-image: url("../img/agence-la-panthere.jpg");
+    padding: 0px;
 }
 
 .bg-presentation {
