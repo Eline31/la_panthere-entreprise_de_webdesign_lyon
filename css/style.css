@@ -688,21 +688,21 @@ i:hover {
 }
 
 .adresse {
-    border:1px solid #787878;
-    box-shadow: 0.5px 0.5px 0.5px #484848;
-    padding: 10px;
-    background:#364577;
-    text-align: center;
-    height:125px;
-    border-radius: 15px;
-    max-width: 415px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: auto;
 }
 
 .adresse p {
+    display: block;
+    padding: 10px;
+    background:#364577;
+    text-align: center;
+    height:125px;
+    border-radius: 15px;
+    max-width: 415px;
     font-size: 1.2em;
     color: white;
     font-weight: 500;
@@ -710,6 +710,7 @@ i:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px;
 }
 
 header {
