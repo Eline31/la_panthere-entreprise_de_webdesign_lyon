@@ -644,6 +644,7 @@ i:hover {
 .btn-atomic-tangerine:hover {
     background: #364577;
     color: #FFFFFF!important;
+    border: 5px solid #FFFFFF!important;
 }
 
 .ltc-white {
