@@ -364,10 +364,9 @@ button {
     opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
-}
-
-.scrollToTop span {
-    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
 
 .showScrollTop {
