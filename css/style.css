@@ -509,6 +509,10 @@ footer {
     right: 0px;
 }
 
+.invalid-feedback {
+    display: none;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;

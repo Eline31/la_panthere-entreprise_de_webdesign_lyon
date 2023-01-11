@@ -45,7 +45,7 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<header class="bloc bgc-white l-bloc " id="bloc-0">
+<header class="bloc bgc-white l-bloc" id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
@@ -73,15 +73,13 @@
 <!-- bloc-6 -->
 <section class="bloc bg-repeat bgc-dark-slate-blue d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 class="text-center hero-bloc-text tc-white">
-					Parlons web design !
-				</h1>
-				<p class="text-center mg-lg tc-white tight-width-whitespace">
-					Nous sommes ravis que vous souhaitiez collaborer avec notre <strong>entreprise de webdesign basée à Lyon</strong>.
-				</p>
-			</div>
+		<div class="col-sm-12">
+			<h1 class="text-center hero-bloc-text tc-white">
+				Parlons web design !
+			</h1>
+			<p class="text-center mg-lg tc-white tight-width-whitespace">
+				Nous sommes ravis que vous souhaitiez collaborer avec notre <strong>entreprise de webdesign basée à Lyon</strong>.
+			</p>
 		</div>
 	</div>
 </section>
@@ -95,27 +93,36 @@
 				<h4>Pour nous contacter, veuillez remplir le formulaire ci-dessous.</h4>
 				<form id="form_1" novalidate>
 					<div class="form-group">
-						<label>
-							Nom
+						<label for="name">
+							Nom et Prénom
 						</label>
-						<input type="text" id="name" class="form-control" placeholder="Doe" required>
+						<input type="text" id="name" title="Renseignez vos nom et prénom" class="form-control" placeholder="Julie Martin" required aria-required="true">
+						<div class="invalid-feedback">
+							Une erreur s'est présentée, veuillez renseignez de nouveau votre nom et prénom
+						</div>
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email">
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" placeholder="jane.doe@example.com" required>
+						<input id="email" class="form-control" type="email" title="Renseignez votre adresse mail" placeholder="martin.julie@example.com" required aria-required="true">
+						<div class="invalid-feedback">
+							Veuillez renseigner une adresse email valide
+						</div>
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="input_504">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="text" required id="input_504" placeholder="Internet">
+						<input class="form-control" type="text" required aria-required="true" id="input_504" title="Expliquez-nous par quel biais vous nous avez connu" placeholder="Internet">
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" placeholder="Expliquez-nous votre projet" required></textarea>
+						</label><textarea id="message" class="form-control" rows="4" cols="50" title="Expliquez-nous votre projet" placeholder="Expliquez-nous votre projet" required aria-required="true"></textarea>
+						<div class="invalid-feedback">
+							Veuillez renseigner de nouveau ce champs
+						</div>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
