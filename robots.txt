@@ -3,5 +3,3 @@ Disallow: /nogooglebot/
 
 User-agent: *
 Allow: /
-
-Sitemap: https://eline31.github.io/La_Panthere-Entreprise_de_webdesign_Lyon/sitemap.xml
