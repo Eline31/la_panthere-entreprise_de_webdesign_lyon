@@ -1,16 +1,4 @@
 /*Intégration des icônes réseaux sociaux*/
-@font-face {
-  font-family: "FontAwesome";
-  src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
-  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"),
-    url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"),
-    url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"),
-    url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 "FontAwesome";
@@ -18,22 +6,6 @@
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.fa-twitter:before {
-  content: "\f099";
-}
-
-.fa-dribbble:before {
-  content: "\f17d";
-}
-
-.fa-facebook-f:before {
-  content: "\f09a";
-}
-
-.fa-instagram:before {
-  content: "\f16d";
 }
 
 /*Intégration des icônes de la partie présentation de la homepage*/
